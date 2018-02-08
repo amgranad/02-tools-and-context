@@ -1,4 +1,4 @@
-# Amber Kim Jest Testing and Map, Reduce, Filter in vanilla JavaScript practice
+# Amber Kim Jest Testing and Map, Reduce, Filter, ForEach in vanilla JavaScript practice
 
 ## For Each
 * Takes an array an a callback function.
