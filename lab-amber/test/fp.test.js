@@ -14,7 +14,6 @@ describe('testing Fp.forEach with null entry for array', () => {
     Fp.forEach(array, (item) => {
       result.push(callback(item));
     });
-    console.log('result', result);
     expect(result).toEqual(expected);
   })
 });
