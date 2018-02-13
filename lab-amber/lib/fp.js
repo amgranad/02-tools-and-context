@@ -8,11 +8,10 @@ Fp.forEach = (array, callback) => {
   if (array === null || array.length === 0) {
     return undefined;
   }
-  let newArray = [];
   for (let i = 0; i < array.length; i++) {
-    newArray.push(callback(array[i]));
+    callback(array[i]);
   }
-  return newArray;
+  return undefined;
 }
 
 Fp.map = (array, callback) => {
